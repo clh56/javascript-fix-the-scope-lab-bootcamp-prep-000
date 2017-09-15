@@ -4,22 +4,21 @@ function myAnimal('dog'); {
   return animal;
 };
 
-function yourAnimal('dog'); {
+function yourAnimal(); {
 var animal = 'cat';
-  console.log(yourAnimal);
+  return animal;
 }
 
 function add2(n); {
+   const two = 2;
   return n + two;
-  const two = 2;
 }
 
 var funkyFunction = function(); {
-  return function() {
+  return function theFunk() {
     return "FUNKY!"
   }
 }
 
-var theFunk = ('funkyFunction'); {
-console.log('FUNKY!');
-}
+var theFunk = funkyFunction();
+var theFunk = theFunk();
