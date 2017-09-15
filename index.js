@@ -1,18 +1,18 @@
-function yourAnimal(); {
+function yourAnimal() {
 var animal = 'cat';
   return animal;
-}
+};
 
-function add2(n); {
+function add2(n) {
    const two = 2;
   return n + two;
-}
+};
 
-var funkyFunction = function(); {
+var funkyFunction = function() {
   return function theFunk() {
-    return "FUNKY!"
-  }
-}
+    return "FUNKY!";
+  };
+};
 
 var theFunk = funkyFunction();
 var theFunk = theFunk();
